@@ -23,6 +23,33 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+<!--
+/* Create two equal columns that floats next to each other */
+-->
+.column1 {
+  float: left;
+  width: 133px;
+  height: 150px; 
+}
+
+.column2 {
+  float: left;
+  width: 60%;
+  line-height: 133px;
+  height: 133px;
+}
+
+<!--
+/* Clear floats after the columns */
+-->
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 </style>
 
 </head>
@@ -90,13 +117,16 @@ img {
 
 	<br>
 	
+<!--
 	<b><p><mark>Currently hiring a postdoctoral researcher.</mark></p></b>
-	<p>Please contact me (email: <a href="mailto:yshim@utep.edu">yshim@utep.edu</a>) for more details about this position.</p>
+-->
+
+	<p><mark>If you are interested in joining the group, please contact me (email: <a href="mailto:yshim@utep.edu">yshim@utep.edu</a>).</mark></p>
 
 	<br>
 	<br>
 
-	<p>(Last update: Jan. 12, 2021)</p>
+	<p>(Last update: Jan. 25, 2021)</p>
 
 
 </div>
@@ -111,25 +141,51 @@ img {
 
 <h2>Principal Investigator</h2>
 <p><b>Prof. Yun-Pil Shim</b> <a href="./CV_Shim2.pdf" target="_blank">(CV)</a></p>
-<img src="profile_Shim.png" width="100" height="129">
+<img src="profile_Shim.png" width="100" height="133">
 <dl>
 	<dt>Education</dt>
 	<dd> Ph.D. in Physics (2006), The University of Texas at Austin</dd>
 	<dd> B.S. in Physics (2000), Seoul National University (Korea)</dd>
 	<dt>Appointments</dt>
-	<dd>Assistant Professor (09/2020 ~ present), Department of Physics, University of Texas at El Paso</dd>
-	<dd>Faculty Specialist (03/2016 ~ 08/2020), Laboratory for Physical Sciences & University of Maryland</dd>
-	<dd>Research Associate (11/2012 ~ 03/2016), Laboratory for Physical Sciences & University of Maryland</dd>
-	<dd>Research Associate (09/2009 ~ 11/2012), Department of Physics, University of Wisconsin-Madison</dd>
-	<dd>Research Associate (12/2006 ~ 09/2009), National Research Council of Canada </dd>
+	<dd>Assistant Professor (09/2020 - present), Department of Physics, University of Texas at El Paso</dd>
+	<dd>Faculty Specialist (03/2016 - 08/2020), Laboratory for Physical Sciences & University of Maryland</dd>
+	<dd>Research Associate (11/2012 - 03/2016), Laboratory for Physical Sciences & University of Maryland</dd>
+	<dd>Research Associate (09/2009 - 11/2012), Department of Physics, University of Wisconsin-Madison</dd>
+	<dd>Research Associate (12/2006 - 09/2009), National Research Council of Canada </dd>
 </dl>	
 
 
 
 <hr>
 
-<h2>Current Students</h2>
-<p><b>Mr. Miguel Rodriguez</b> (MS student, Fall 2020 ~ present)</p>
+<h2>Current Members</h2>
+
+  <h3>Postdocs</h3>
+
+
+  <h3>Graduate Students</h3>
+
+<div class="row">
+
+  <div class="column1">  
+    <p><img src="Miguel_Rodriguez.jpg" width="100" height="133"></p>
+  </div>
+  <div class="column2">
+    <p><b>Mr. Miguel G. Rodriguez</b> (MS student, Fall 2020 - present)</p>
+  </div>
+</div>
+
+<!--
+<div class="row">
+  <div class="column1">  
+    <p><img src="miguel.jpg" width="100" height="133"></p>
+  </div>
+  <div class="column2">
+    <p><b>Mr. Miguel G. Rodriguez</b> (MS student, Fall 2020 ~ present)</p>
+  </div>
+</div>
+-->
+
 </div>
 
 
